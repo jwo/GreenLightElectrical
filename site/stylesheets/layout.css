@@ -1,0 +1,134 @@
+/** BASIC */
+
+html, body {
+	height: 100%;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	width: 764px;
+	height: 682px;
+	margin: 0px auto;
+}
+
+#extra1 {
+	float: left;
+	width: 91px;
+	height: 682px;
+	background: url(/images/bg02.jpg) no-repeat left top;
+}
+
+#extra2 {
+	float: right;
+	width: 91px;
+	height: 682px;
+	background: url(/images/bg03.jpg) no-repeat left top;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	width: 582px;
+	height: 163px;
+	background: url(/images/homepage01.jpg) no-repeat left top;
+}
+
+#logo h1, #logo h2 {
+	display: none;
+}
+
+/** MENU */
+
+#menu {
+	float: left;
+	width: 582px;
+	height: 44px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 44px;
+}
+
+#menu b {
+	display: none;
+}
+
+#menu1 {
+	width: 118px;
+	background: url(/images/homepage02.jpg) no-repeat left top;
+}
+
+#menu2 {
+	width: 116px;
+	background: url(/images/homepage03.jpg) no-repeat left top;
+}
+
+#menu3 {
+	width: 116px;
+	background: url(/images/homepage04.jpg) no-repeat left top;
+}
+
+#menu4 {
+	width: 116px;
+	background: url(/images/homepage05.jpg) no-repeat left top;
+}
+
+#menu5 {
+	width: 116px;
+	background: url(/images/homepage06.jpg) no-repeat left top;
+}
+
+/** CONTENT */
+
+#left {
+	float: left;
+	width: 221px;
+	height: 257px;
+}
+
+#right {
+	float: left;
+	width: 221px;
+	height: 257px;
+}
+
+#subpage1 #left {
+	float: left;
+	width: 291px;
+	height: 257px;
+}
+
+#subpage1 #right {
+	float: left;
+	width: 151px;
+	height: 257px;
+}
+
+#subpage2 #left {
+	float: left;
+	width: 512px;
+	height: 257px;
+}
+
+/** FOOTER */
+
+#footer {
+	float: left;
+	width: 582px;
+	height: 143px;
+	padding-top: 30px;
+}

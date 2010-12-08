@@ -1,0 +1,70 @@
+.button, 
+a.button, 
+.small, 
+a.small {
+	background: #FBFBFB; /* old browsers */
+	background: -moz-linear-gradient(top, #FBFBFB 0%, #CACACA 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#CACACA)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FBFBFB', endColorstr='#CACACA',GradientType=0 ); /* ie */
+	border: 1px solid #BBBBBB;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	color: #353535;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 6px 10px;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #fff;
+	}
+	
+/* Remove outline focus for FireFox*/
+.button::-moz-focus-inner,
+a.button::-moz-focus-inner,
+.panel_icon::-moz-focus-inner, 
+a.panel_icon::-moz-focus-inner, 
+.small::-moz-focus-inner, 
+a.small::-moz-focus-inner {   
+	border : 0px;
+	} 
+/* Remove outline focus for IE8 */
+.button:focus, 
+a.button:focus, 
+.panel_icon::-moz-focus-inner, 
+a.panel_icon::-moz-focus-inner, 
+.small::-moz-focus-inner,
+a.small::-moz-focus-inner {     
+	outline : none; 
+	}
+	
+.button:hover, 
+.small:hover {
+	background: #EFEFEF; /* old browsers */
+	background: -moz-linear-gradient(top, #EFEFEF 0%, #C1C1C1 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EFEFEF), color-stop(100%,#C1C1C1)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFEFEF', endColorstr='#C1C1C1',GradientType=0 ); /* ie */
+	border-color: #aaa;
+	}
+	
+.button:active, 
+.small:active {
+	background: #CACACA; /* old browsers */
+	background: -moz-linear-gradient(top, #CACACA 0%, #FBFBFB 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CACACA), color-stop(100%,#FBFBFB)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CACACA', endColorstr='#FBFBFB',GradientType=0 ); /* ie */
+	color: #151515;
+	position: relative;
+	top: 1px;
+	text-shadow: -1px 1px 1px #fff;
+	}
+	
+.small, 
+a.small {
+	font-size: 12px;
+	padding: 0 10px;
+	text-decoration: none;
+	text-shadow: 0 0 0 #fff;
+	}
