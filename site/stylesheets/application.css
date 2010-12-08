@@ -3,7 +3,7 @@ body {
   background-attachment: fixed;
   background-color: #00d6ff;
   background-position: 50% 0%;
-  background-repeat: no-repeat no-repeat; }
+  background-repeat: no-repeat; }
 
 #header {
   margin-top: 2em; }
