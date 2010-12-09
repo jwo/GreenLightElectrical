@@ -1,18 +1,22 @@
 body {
-  background-image: url(/images/big-bg.jpg);
+  background-image: url(/images/bg.jpg);
   background-attachment: fixed;
   background-color: #00d6ff;
   background-position: 50% 0%;
   background-repeat: no-repeat; }
 
 #header {
-  margin-top: 2em; }
+  margin-top: 1em; }
 
 #content {
-  background: #cff0ff;
-  border: 5px solid white;
+  background: #f2f2f2;
+  border: 7px solid white;
   font-family: "Puritan", arial, serif;
-  font-size: 14px; }
+  font-size: 14px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px; }
 
 #main {
   padding: 2em;
@@ -91,6 +95,9 @@ ul#menu li.right {
 h1, h2, h3 {
   font-family: "Puritan", arial, serif; }
 
+.header_logo {
+  background: #f2f2f2; }
+
 .testimonial {
   border-bottom: 1px dashed;
   margin-top: 2em; }
@@ -103,4 +110,4 @@ h1, h2, h3 {
     font-style: italic; }
 
 a.next, a.prev {
-  margin-top: 170px; }
+  margin-top: 140px; }
