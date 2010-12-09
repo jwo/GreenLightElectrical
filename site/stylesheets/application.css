@@ -1,7 +1,7 @@
 body {
   background-image: url(/images/bg.jpg);
   background-attachment: fixed;
-  background-color: #00d6ff;
+  background-color: #2d597e;
   background-position: 50% 0%;
   background-repeat: no-repeat; }
 
@@ -97,6 +97,9 @@ h1, h2, h3 {
 
 .header_logo {
   background: #f2f2f2; }
+  .header_logo img {
+    width: 424;
+    height: 115; }
 
 .testimonial {
   border-bottom: 1px dashed;
