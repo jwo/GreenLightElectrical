@@ -3,11 +3,8 @@
 	%head
 		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}/
 		%title=page_title(current_page)
-		%meta{:content => "", :name => "keywords"}/
-		%meta{:content => "", :name => "description"}/
 		%link{:href=>"http://flowplayer.org/tools/css/scrollable-buttons.css", :media=>:screen, :rel=>:stylesheet, :type=>"text/css"}
-		%link{:href=>"http://fonts.googleapis.com/css?family=Puritan&subset=latin", :media=>:screen, :rel=>:stylesheet, :type=>"text/css"}
-		%link{:href=>"http://fonts.googleapis.com/css?family=Inconsolata&subset=latin", :media=>:screen, :rel=>:stylesheet, :type=>"text/css"}
+		%link{:href=>"http://fonts.googleapis.com/css?family=Droid+Sans+Mono&subset=latin", :media=>:screen, :rel=>:stylesheet, :type=>"text/css"}
 		= stylesheets :reset, :text, :grid, :default, :application, :buttons,:scrollable, :prettyPhoto, :media => :screen
 		= javascripts "http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"
 		= javascripts "jquery.prettyPhoto"
@@ -52,3 +49,8 @@
 			.grid_2.omega
 		-if @footer
 			=@footer 
+		:javascript
+			$(document).ready(function(){
+				$("a[rel^='prettyPhoto']").prettyPhoto();
+			});
+		

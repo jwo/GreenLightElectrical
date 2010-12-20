@@ -3,11 +3,8 @@
   <head>
     <meta content='text/html; charset=utf-8' http-equiv='content-type' />
     <title>Testimonials | Green Light Electrical</title>
-    <meta content='' name='keywords' />
-    <meta content='' name='description' />
     <link href='http://flowplayer.org/tools/css/scrollable-buttons.css' media='screen' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Puritan&amp;subset=latin' media='screen' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Inconsolata&amp;subset=latin' media='screen' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono&amp;subset=latin' media='screen' rel='stylesheet' type='text/css' />
     <link href="stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css"/><link href="stylesheets/text.css" media="screen" rel="stylesheet" type="text/css"/><link href="stylesheets/grid.css" media="screen" rel="stylesheet" type="text/css"/><link href="stylesheets/application.css" media="screen" rel="stylesheet" type="text/css"/><link href="stylesheets/buttons.css" media="screen" rel="stylesheet" type="text/css"/><link href="stylesheets/scrollable.css" media="screen" rel="stylesheet" type="text/css"/><link href="stylesheets/prettyPhoto.css" media="screen" rel="stylesheet" type="text/css"/>
     <script language="javascript" src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js" type="text/javascript"></script>
     <script language="javascript" src="javascripts/jquery.prettyPhoto.js" type="text/javascript"></script>
@@ -58,9 +55,9 @@
               <h5>December, 2010</h5>
               <p>Jarrod has done the electrical wiring for the last 4 homes we have built.  He is extremely conscientious and very meticulous.  We always appreciate his prompt and courteous service and highly recommend his company.</p>
               <div class='images'>
-                <a height='50' href='images/jones-1-large.jpg' rel='prettyPhoto[gallery1]' width='50'><img alt="Indirect Lighting" height="50" src="images/jones-1-thumb.jpg" width="50"/></a>
-                <a height='50' href='images/jones-2-large.jpg' rel='prettyPhoto[gallery1]' width='50'><img alt="Under Cabinet Lighting" height="50" src="images/jones-2-thumb.jpg" width="50"/></a>
-                <a height='50' href='images/jones-3-large.jpg' rel='prettyPhoto[gallery1]' width='50'><img alt="Outdoor Lighting" height="50" src="images/jones-3-thumb.jpg" width="50"/></a>
+                <a href='images/jones-1-large.jpg' rel='prettyPhoto[gallery1]'><img alt="Indirect Lighting" src="images/jones-1-thumb.jpg"/></a>
+                <a href='images/jones-2-large.jpg' rel='prettyPhoto[gallery1]'><img alt="Under Cabinet Lighting" src="images/jones-2-thumb.jpg"/></a>
+                <a href='images/jones-3-large.jpg' rel='prettyPhoto[gallery1]'><img alt="Outdoor Lighting" src="images/jones-3-thumb.jpg"/></a>
               </div>
               <h6>Thaddeus A. Jones Custom Homes, LLC</h6>
               <div class='clear'></div>
@@ -87,6 +84,26 @@
       </div>
       <div class='grid_2 omega'></div>
     </div>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(document).ready(function() {
+        	$(".scrollable").scrollable();
+        
+        	$(".slidetabs").tabs(".images > div", {
+        
+        		// enable "cross-fading" effect
+        		effect: 'fade',
+        		fadeOutSpeed: "slow",
+        
+        		// start from the beginning after the last tab
+        		rotate: true,
+        		autoplay: true
+        
+        	// use the slideshow plugin. It accepts its own configuration
+        	}).slideshow();
+        });
+      //]]>
+    </script>
     <script type='text/javascript'>
       //<![CDATA[
         $(document).ready(function(){

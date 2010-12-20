@@ -11,7 +11,7 @@ body {
 #content {
   background: #f2f2f2;
   border: 7px solid white;
-  font-family: "Puritan", arial, serif;
+  font-family: "Helvetica", arial, serif;
   font-size: 14px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -38,7 +38,7 @@ ul#menu {
   font-size: 14px;
   font-weight: bold;
   background: transparent url(images/nav_bg.png) repeat-x top left;
-  font-family: "Puritan", arial, serif;
+  font-family: "Helvetica", arial, serif;
   border-bottom: 1px solid black;
   border-top: 1px solid black; }
 
@@ -93,7 +93,7 @@ ul#menu li.right {
   padding-right: 1em; }
 
 h1, h2, h3 {
-  font-family: "Puritan", arial, serif; }
+  font-family: "Helvetica", "Droid Sans Mono", arial, serif; }
 
 .header_logo {
   background: #f2f2f2; }

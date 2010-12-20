@@ -4,9 +4,9 @@
 	%h5 December, 2010
 	%p Jarrod has done the electrical wiring for the last 4 homes we have built.  He is extremely conscientious and very meticulous.  We always appreciate his prompt and courteous service and highly recommend his company.   
 	.images
-		%a{:href=>'images/jones-1-large.jpg', :rel=>"prettyPhoto[gallery1]", :height=>50, :width=>50}=img "jones-1-thumb.jpg", :height=>50, :width=>50, :alt=>"Indirect Lighting"
-		%a{:href=>'images/jones-2-large.jpg', :rel=>"prettyPhoto[gallery1]", :height=>50, :width=>50}=img "jones-2-thumb.jpg", :height=>50, :width=>50, :alt=>"Under Cabinet Lighting"
-		%a{:href=>'images/jones-3-large.jpg', :rel=>"prettyPhoto[gallery1]", :height=>50, :width=>50}=img "jones-3-thumb.jpg", :height=>50, :width=>50, :alt=>"Outdoor Lighting"
+		%a{:href=>'images/jones-1-large.jpg', :rel=>"prettyPhoto[gallery1]"}=img "jones-1-thumb.jpg", :alt=>"Indirect Lighting"
+		%a{:href=>'images/jones-2-large.jpg', :rel=>"prettyPhoto[gallery1]"}=img "jones-2-thumb.jpg", :alt=>"Under Cabinet Lighting"
+		%a{:href=>'images/jones-3-large.jpg', :rel=>"prettyPhoto[gallery1]"}=img "jones-3-thumb.jpg", :alt=>"Outdoor Lighting"
 
 	%h6 Thaddeus A. Jones Custom Homes, LLC
 	.clear
@@ -22,11 +22,3 @@
 	%p As a Realtor I need to have dependable, professional people I can refer to my clients.  Jarrod Huser, owner of Greenlight Electric, is a licensed electrician who has years of experience, is trustworthy, has competitive prices,  shows up on time and knows his "stuff".  My clients love him. 
 	%h6 Betty Kuykendall
 	.clear
-		
-		
-		
--@footer = capture_haml do
-	:javascript
-		$(document).ready(function(){
-			$("a[rel^='prettyPhoto']").prettyPhoto();
-		});
